@@ -1,0 +1,41 @@
+body {
+  background-color: #000000;
+  color: rgb(241, 241, 241);
+}
+
+.container {}
+
+.display {
+  height: 100px;
+  width: 19%;
+  color: white;
+  background-color: inherit;
+  overflow: hidden;
+}
+
+.display h2 {
+  transition: all 0.2s;
+  opacity: 0;
+  margin-right: 10px;
+}
+
+.display i {
+  font-size: 20px;
+  margin: 0 10px 20px 0px;
+}
+
+.numbers button {
+  width: 60px;
+  height: 40px;
+  border-radius: 30px;
+  background-color: #313131;
+  border: none;
+  color: white;
+  font-size: 25px;
+  margin: 5px 2px;
+  transition: all 0.15s;
+}
+
+.numbers button:hover {
+  filter: brightness(0.9);
+}

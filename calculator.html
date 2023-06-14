@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body style="background-color: rgb(24, 24, 24);">
+
+  <section class="d-flex justify-content-center align-items-center h-100 flex-column w-100 mt-5">
+
+    <div id="display" class="display d-flex align-items-end justify-content-end ">
+      <h2></h2>
+      <i id="delete" class="fa-solid fa-delete-left"></i>
+        </div>
+  
+    <div class="">
+      <div class="number-row-1 numbers">
+        <button id="7">7</button>
+        <button id="8">8</button>
+        <button id="9">9</button>
+        <button id="divide" style="background-color: #f59906;">÷</button>
+        
+        <div class="number-row-2 numbers">
+          <button id="4">4</button>
+          <button id="5">5</button>
+          <button id="6">6</button>
+          <button id="multiply" style="background-color: #f59906;">×</button>
+        </div>
+  
+        <div class="number-row-3 numbers">
+          <button id="1">1</button>
+          <button id="2">2</button>
+          <button id="3">3</button>
+          <button id="minus" style="background-color: #f59906;">-</button>
+        </div>
+  
+      <div class="number-row-4 numbers">
+        <button id="0">0</button>
+        <button id="dot">.</button>
+        <button id="equal" style="background-color: #a0a0a0;">=</button>
+        <button id="plus" style="background-color: #f59906;">+</button>
+      </div>
+  
+  
+  
+      </div>
+    </div>
+    
+    <script src="calculator.js"></script>
+  </body>
+  </html>
+  </section>
